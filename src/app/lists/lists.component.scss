@@ -1,14 +1,11 @@
-@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
-//@import '~bulma/css/bulma.css';
+//@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+@import '~bulma/css/bulma.css';
 
 .fundo{
-    background-color: blueviolet;
+    // background-color: blueviolet;
     width: 90%;
     height: 100%;
     padding: 20px;
-    
-
-    
 }
 
 .test{
@@ -17,10 +14,12 @@
     align-content: flex-start;
 
 }
+
 .topo{
-  font-size: 20px;
+  font-size: 40px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  
+  display: grid;
+  grid-template-columns: auto auto;
 }
 .example-card {
     max-width: 400px;
@@ -51,3 +50,12 @@
     font-family: cursive;
     padding: 5px;
   }
+
+  .btnIcon{
+    background-color: green;
+    color: white;
+    width: 45px;
+    height: 45px;
+    border: 1px solid white;
+    border-radius: 70px;
+  }  
