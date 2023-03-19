@@ -1,0 +1,53 @@
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+//@import '~bulma/css/bulma.css';
+
+.fundo{
+    background-color: blueviolet;
+    width: 90%;
+    height: 100%;
+    padding: 20px;
+    
+
+    
+}
+
+.test{
+  flex-flow: column wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+
+}
+.topo{
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+.example-card {
+    max-width: 400px;
+    min-width: 400px;
+    max-height: auto;
+    border: 1px solid white;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+  }
+  
+  .example-header-image {
+    background-size: cover;
+    border-radius: 5px;
+  }
+  .btn{
+    padding-left: 10px;
+    margin-left: 10px;
+    border: 1px solid white;
+  }
+  
+  .foto{
+    border-radius: 10px;
+  }
+  
+  .texto{
+    font-family: cursive;
+    padding: 5px;
+  }
