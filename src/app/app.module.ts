@@ -8,12 +8,14 @@ import { AppComponent } from './app.component';
 import { ListsComponent } from './lists/lists.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     ListsComponent,
-    
-    
+
+
+
   ],
   imports: [
     BrowserModule,
@@ -21,7 +23,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserAnimationsModule,
     SweetAlert2Module,
     MatIconModule,
-    
+
   ],
   providers: [],
   bootstrap: [AppComponent]
